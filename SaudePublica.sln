@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudePublica.Web", "SaudePublica\SaudePublica.Web.csproj", "{FCED8C51-829F-41E1-9976-9688C9580E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudePublica.Domain", "SaudePublica.Domain\SaudePublica.Domain.csproj", "{4FA17FD2-C38D-4CD9-B662-3C21548B80BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudePublica.Test", "SaudePublica.Test\SaudePublica.Test.csproj", "{7E02A9D0-3B73-46B1-8E5F-2A3C62BA6E7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCED8C51-829F-41E1-9976-9688C9580E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCED8C51-829F-41E1-9976-9688C9580E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCED8C51-829F-41E1-9976-9688C9580E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCED8C51-829F-41E1-9976-9688C9580E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA17FD2-C38D-4CD9-B662-3C21548B80BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA17FD2-C38D-4CD9-B662-3C21548B80BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA17FD2-C38D-4CD9-B662-3C21548B80BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA17FD2-C38D-4CD9-B662-3C21548B80BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E02A9D0-3B73-46B1-8E5F-2A3C62BA6E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E02A9D0-3B73-46B1-8E5F-2A3C62BA6E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E02A9D0-3B73-46B1-8E5F-2A3C62BA6E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E02A9D0-3B73-46B1-8E5F-2A3C62BA6E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD28DD14-4B21-4613-90A5-5352DECC3F0A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jeihcio.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SaudePublica.Domain\\SaudePublica.Domain.csproj
+		SccProjectName1 = SaudePublica.Domain
+		SccLocalPath1 = SaudePublica.Domain
+		SccProjectUniqueName2 = SaudePublica\\SaudePublica.Web.csproj
+		SccProjectName2 = SaudePublica
+		SccLocalPath2 = SaudePublica
+		SccProjectUniqueName3 = SaudePublica.Test\\SaudePublica.Test.csproj
+		SccProjectName3 = SaudePublica.Test
+		SccLocalPath3 = SaudePublica.Test
+	EndGlobalSection
+EndGlobal

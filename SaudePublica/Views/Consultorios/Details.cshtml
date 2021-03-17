@@ -1,0 +1,66 @@
+﻿@model SaudePublica.Domain.Database.Entities.Consultorio
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Consultório</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numeroSala)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numeroSala)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.andar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.andar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.setor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.setor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.longitude)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Voltar para a lista", "Index")
+</p>

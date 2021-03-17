@@ -1,0 +1,39 @@
+@model List<SaudePublica.Domain.Database.Entities.Consultorio>
+
+@{
+    ViewBag.Title = "Relatório";
+}
+
+<h3>Médicos em cada consultório</h3>
+
+<table class="table">
+    <tr>
+        <th>
+            Consultórios
+        </th>
+        <th>
+            Médicos
+        </th>
+    </tr>
+    @foreach (var consultorio in Model)
+    {
+        <tr>
+            <td>
+                @consultorio.nome
+            </td>
+            <td>
+                @if (consultorio.profissionals.Count > 0)
+                {
+                    foreach (var profissional in consultorio.profissionals)
+                    {
+                        <span>@profissional.nome</span>
+                    }
+                }
+                else
+                {
+                    <span style="color: red;">Nenhum médico nesse consultório</span>
+                }
+            </td>
+        </tr>
+    }
+</table>
